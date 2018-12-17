@@ -1,0 +1,173 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../assets/busybus_map.PNG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-size: 18px;
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+.container {
+  width: 100%;
+}
+
+.status-bar {
+  position: fixed;
+  top: 0;
+}
+
+.header {
+  padding-left: 3%;
+  padding-right: 3%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: #BBCDD4;
+}
+
+.fa-chevron-left {
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  color: #007AFF;
+}
+
+.back {
+  color: #007AFF;
+  display: inline-block;
+}
+
+h1{
+  font-size: 28px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.list {
+  margin-top: 130%;
+  padding: 3% 3% 0 3%;
+  box-sizing:border-box;
+  background-color: rgba(255,255,255, 0.8);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.row {
+  height:60px;
+  width:15%;
+  display: inline-block;
+  text-align: left;
+  padding-top: 9px
+
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000000;
+  padding-bottom: 2px;
+}
+
+.direction {
+  font-size: 14px;
+  font-weight: normal;
+  color: #007AFF;
+  padding-bottom: 2px;
+}
+
+
+.destination {
+  height: 60px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000000;
+  text-align: left;
+  display: inline-block;
+  float: center;
+  padding: 10px 0 10px 0;
+}
+
+.now {
+  height: 34px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #4FBA61;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding: 23.5px 0 23.5px 0;
+}
+
+.time {
+  height: 34px;
+	width: 30%
+  font-size: 22px;
+  font-weight: normal;
+  color: #4FBA61;
+  text-align: auto;
+  display: inline-block;
+  float: right;
+  padding: 23.5px 0 23.5px 0;
+}
+
+.minutes {
+  height:75px;
+  font-size: 14px;
+  font-weight: normal;
+  color: #4FBA61;
+  text-align: right;
+  display: inline-block;
+  float: right;
+  padding: 23.5px 0 23.5px 0;
+}
+
+.row-RR {
+  height:60px;
+  width: 60px;
+  display: inline-block;
+  text-align: left;
+}
+
+.row-RR .direction{
+  color: #FF2D55;
+}
+
+ .time-RR {
+   height:60px;
+   font-size: 18px;
+   font-weight: normal;
+   color: #FF2D55;
+   text-align: right;
+   display: inline-block;
+   float: right;
+   padding: 23.5px 0 23.5px 0;
+ }
+
+ .row-OS {
+   height:60px;
+   width:60px;
+   display: inline-block;
+   text-align: left;
+ }
+
+ .row-OS .number, .row-OS .direction, .row-OS .destination {
+   color: #8E8E93;
+ }
+
+ .time-OS {
+   height:60px;
+   font-size: 14px;
+   font-weight: normal;
+   color: #8E8E93;
+   text-align: right;
+   display: inline-block;
+   float: right;
+   padding: 25px 0 25px 0;
+   width: 36%;
+ }
