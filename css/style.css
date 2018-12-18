@@ -3,8 +3,8 @@
 }
 
 body {
-  background-image: url("../assets/busybus_map.PNG");
-  background-size: cover;
+  background-image: url("../assets/busybusmap.PNG");
+  background-size: 400px;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-size: 18px;
@@ -12,7 +12,7 @@ body {
 }
 
 .container {
-  width: 375px;
+  width: 400px;
 }
 
 .status-bar {
@@ -23,7 +23,7 @@ body {
 .header {
   padding-left: 3%;
   padding-right: 3%;
-  width: 100%;
+  width: 400px;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -52,21 +52,32 @@ h1{
 }
 
 .list {
-  margin-top: 130%;
-  padding: 3% 3% 0 3%;
+  margin-top: 120%;
+  padding: 2% 3% 2% 3%;
   box-sizing:border-box;
   background-color: rgba(255,255,255, 0.8);
   border-radius: 10px 10px 0 0;
   position: relative;
 }
 
+.rtColumn {
+	width: 15%;
+	display: inline-block;
+	text-align: left;
+}
+
 .row {
-  height:60px;
-  width:18%;
+  height:70px;
+  width:20%;
   display: inline-block;
   text-align: left;
   padding-top: 9px
 
+}
+
+.inner {
+	display: inline-block;
+	vertical-align: middle;
 }
 
 .number {
@@ -74,7 +85,7 @@ h1{
   font-weight: bold;
   color: #000000;
   padding-bottom: 2px;
-	padding-top: 10px
+	padding-top: 4px
 }
 
 .direction {
@@ -119,21 +130,17 @@ h1{
 }
 
 .minutes {
-  height:75px;
   font-size: 14px;
   font-weight: normal;
   color: #4FBA61;
-  text-align: right;
-  display: inline-block;
-  float: right;
-  padding: 23.5px 0 23.5px 0;
 }
 
 .row-RR {
-  height:60px;
-  width: 18%;
+  height:70px;
+  width: 20%;
   display: inline-block;
   text-align: left;
+  padding-top: 9px;
 }
 
 .row-RR .direction{
@@ -152,10 +159,11 @@ h1{
  }
 
  .row-OS {
-   height:60px;
-   width:18%;
+   height:70px;
+   width:20%;
    display: inline-block;
    text-align: left;
+   padding-top: 9px;
  }
 
  .row-OS .number, .row-OS .direction, .row-OS .destination {
@@ -163,7 +171,7 @@ h1{
  }
 
 .destination-OS {
-  height: 60px;
+  height: 40px;
   font-size: 18px;
   font-weight: normal;
   color: #8E8E93;
@@ -176,15 +184,12 @@ h1{
  .time-OS {
    height:60px;
    font-size: 14px;
+   line-height: 18px;
    font-weight: normal;
    color: #8E8E93;
    text-align: right;
    display: inline-block;
    float: right;
-   padding: 25px 0 25px 0;
-   width: 36%;
- }
-
-
+   padding: 17px 0 25px 0;
    width: 36%;
  }
