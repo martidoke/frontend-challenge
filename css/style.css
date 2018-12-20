@@ -3,16 +3,14 @@
 }
 
 body {
-  background-image: url("../assets/busybusmap.PNG");
-  background-size: 400px;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
   font-size: 18px;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
 }
 
+
+
 .container {
-  width: 400px;
+  width: 375px;
 }
 
 .status-bar {
@@ -21,9 +19,9 @@ body {
 }
 
 .header {
-  padding-left: 3%;
+  padding-left: 0%;
   padding-right: 3%;
-  width: 400px;
+  width: 375px;
   position: fixed;
   top: 0;
   z-index: 1;
@@ -33,6 +31,7 @@ body {
 .fa-chevron-left {
   display: inline-block;
   padding-bottom: 10px;
+padding-left: 3.5%;
   margin-top: 50px;
   color: #007AFF;
 }
@@ -47,12 +46,12 @@ h1{
   float: center;
   font-weight: normal;
   padding-bottom: 18px;
-  padding-left: 40px;
+  padding-left: 35px;
   display: inline-block;
 }
 
 .list {
-  margin-top: 120%;
+
   padding: 2% 3% 2% 3%;
   box-sizing:border-box;
   background-color: rgba(255,255,255, 0.8);
@@ -98,18 +97,18 @@ h1{
 
 .destination {
   height: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   color: #000000;
   text-align: left;
   display: inline-block;
   float: center;
-  padding: 10px 0 10px 0;
+  padding: 3px 0 10px 0;
 }
 
 .now {
   height: 34px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   color: #4FBA61;
   text-align: right;
@@ -120,7 +119,7 @@ h1{
 
 .time {
   height: 34px;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: normal;
   color: #4FBA61;
   text-align: auto;
@@ -172,18 +171,18 @@ h1{
 
 .destination-OS {
   height: 40px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: normal;
   color: #8E8E93;
   text-align: left;
   display: inline-block;
   float: center;
-  padding: 10px 0 10px 0;
+  padding: px 0 10px 0;
 }
 
  .time-OS {
    height:60px;
-   font-size: 14px;
+   font-size: 12px;
    line-height: 18px;
    font-weight: normal;
    color: #8E8E93;
