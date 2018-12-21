@@ -11,6 +11,7 @@ body {
 
 .container {
   width: 375px;
+  margin: auto;
 }
 
 .status-bar {
@@ -50,13 +51,21 @@ h1{
   display: inline-block;
 }
 
+.map {
+  width: 375px;
+
+}
+
 .list {
 
   padding: 2% 3% 2% 3%;
+  height: 275px;
   box-sizing:border-box;
   background-color: rgba(255,255,255, 0.8);
   border-radius: 10px 10px 0 0;
   position: relative;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .rtColumn {
